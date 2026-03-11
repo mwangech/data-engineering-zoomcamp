@@ -204,6 +204,10 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Environment variables file
+.env
+gcp_credentials.json
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
