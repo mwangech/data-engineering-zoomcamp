@@ -63,7 +63,7 @@ docker compose up -d
 - **Username:** `admin@kestra.io`
 - **Password:** `Admin1234!`
 
-![Kestra Dashboard](./dashboard.png)
+![Kestra Dashboard](./screenshots/dashboard.png)
 
 To shut down the environment:
 
@@ -110,7 +110,7 @@ inputs:
     required: true
 ```
 
-![Inputs UI](./input.png)
+![Inputs UI](./screenshots/input.png)
 
 Reference inputs in tasks using double curly braces:
 
@@ -143,7 +143,7 @@ triggers:
 
 Every flow run generates a detailed execution record showing duration, task outputs, and any retries — making debugging fast and efficient.
 
-![Flow Execution](./execution.png)
+![Flow Execution](./screenshots/execution.png)
 
 ---
 
@@ -194,7 +194,7 @@ concurrency:
 
 Kestra also supports **Historical Backfills** via the UI — re-running logic for past date ranges (e.g., loading all 2021 data) based on the cron schedule's would-have-triggered dates.
 
-![Historical Backfills](./backfills.png)
+![Historical Backfills](./screenshots/backfills.png)
 
 ---
 
