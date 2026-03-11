@@ -209,7 +209,7 @@ cython_debug/
 gcp_credentials.json
 
 #Folders
-test/
+/test/*
 
 # Marimo
 marimo/_static/
