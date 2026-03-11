@@ -208,6 +208,9 @@ cython_debug/
 .env
 gcp_credentials.json
 
+#Folders
+test/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
